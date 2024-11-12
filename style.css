@@ -3,13 +3,17 @@ body {
     background-color: antiquewhite;
     display: flex;
 }
+
+header div {
+    border: 2px solid;
+}
 h1 {
     text-align: center;
     text-decoration-line: underline;
+    text-transform: uppercase;
 }
 
 img {
-    justify-content: center;
     border-radius: 50%;
     border: 2px dotted #333;
 }
