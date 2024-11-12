@@ -4,9 +4,18 @@ body {
     display: flex;
 }
 
-header div {
+header section {
     border: 2px solid;
+    margin: 2px;
+    padding: 3px;
 }
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
 h1 {
     text-align: center;
     text-decoration-line: underline;
