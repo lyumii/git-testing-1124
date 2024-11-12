@@ -7,13 +7,15 @@ body {
 header section {
     border: 2px solid;
     margin: 2px;
-    padding: 3px;
+    padding: 20px;
 }
 
 .flexbox-container {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
 }
 
 h1 {
