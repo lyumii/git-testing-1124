@@ -4,6 +4,10 @@ body {
     display: flex;
 }
 
+header {
+    width: 80%;
+}
+
 header section {
     border: 2px solid;
     margin: 2px;
@@ -22,6 +26,7 @@ h1 {
     text-align: center;
     text-decoration-line: underline;
     text-transform: uppercase;
+    font-size: 3em;
 }
 
 img {

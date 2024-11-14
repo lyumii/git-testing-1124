@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Stories</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">User Stories</h1>
+      <p id="description">Tell us your fascinating story!</p>
+    </header>
+    <hr>
+    <main>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Basics of you: </legend>
+       <div> <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Luna" required></label></div>
+        <div><label for="email" id="email-label">Email: <input id="email" type="email" placeholder="luna@happydog.com" required></label></div>
+        <div><label for="number" id="number-label">Number: <input id="number" type="number" placeholder="Your lucky number" min="1" max="99" ></label></div> 
+      </fieldset>
+      <fieldset>
+        <legend>Basics of your story:</legend>
+        <div><label for="dropdown">Chose your season: <select id="dropdown">
+          <option value="">select option:</option>
+          <option value="1">Spring</option>
+          <option value="2">Summer</option>
+          <option value="3">Autumn</option>
+          <option value="4">Winter</option></select></label></div>
+          <div>
+            <p>What kind of story?</p> 
+            <label for="fiction"><input type="radio" id="fiction" name="type" value="1"> Fiction</label>
+            <label for="nonfiction"><input type="radio" id="nonfiction" name="type" value="2"> Non-fiction</label>
+            </div>
+            <div><p>Genre:</p>
+            <label for="fantasy"><input type="checkbox" id="fantasy" name="genre" value="1">Fantasy</label>
+            <label for="historical"><input type="checkbox" id="historical" name="genre" value="1">Historical</label>
+            <label for="romance"><input type="checkbox" id="romance" name="genre" value="1">Romance</label>
+            <label for="thriller"><input type="checkbox" id="thriller" name="genre" value="1">Thriller</label>
+          </fieldset>
+          <fieldset>
+            <legend>Summary of your story: </legend>
+            <textarea rows="10" cols="50" placeholder="your story..."></textarea>
+          </fieldset>
+          <button type="submit" id="submit">Submit</button>
+    </form>
+    </main>
+    <hr>
+    <footer>
+      <p>Thank you for submitting your story!</p>
+    </footer>
+  </body>
+</html>
