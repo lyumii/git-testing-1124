@@ -23,6 +23,9 @@ header, footer {
   
   body {
     background-color: #3333;
+    width: 80%;
+    align:center;
+    margin: auto;
   }
   
   hr {
